@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github]()
-- Live Site URL: [Netlify]()
+- Solution URL: [Github](https://github.com/VirginiaPat/Testimonials-section-Challenge.git)
+- Live Site URL: [Netlify](https://testimonial-section-challenge.netlify.app/)
 
 ## My process
 

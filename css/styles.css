@@ -21,6 +21,17 @@ body {
 }
 
 /* GENERAL USE CLASSES -----------------------------*/
+.visually-hidden {
+  position: absolute;
+  width: calc((1 / 16) * 1rem);
+  height: calc((1 / 16) * 1rem);
+  padding: 0;
+  margin: calc((-1 / 16) * 1rem);
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .testimonial {
   padding: var(--space-32px);
   border-radius: var(--border-radius);

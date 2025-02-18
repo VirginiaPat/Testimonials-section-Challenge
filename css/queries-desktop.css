@@ -6,8 +6,8 @@
 
   /* SECTION TESTIMONIALS----------------------------- */
   .testimonials__section {
-    max-width: calc((1114 / 16) * 1rem);
-    /* max-width: calc((1600 / 16) * 1rem); */
+    mix-width: calc((1114 / 16) * 1rem);
+    max-width: calc((1600 / 16) * 1rem);
 
     grid-template-columns: repeat(4, auto);
     column-gap: var(--space-32px);

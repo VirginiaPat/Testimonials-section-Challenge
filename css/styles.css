@@ -2,7 +2,7 @@ body {
   font-family: "Barlow Semi Condensed", Arial, sans-serif;
   background-color: var(--color-body);
 
-  padding: calc((73 / 16) * 1rem) calc((35 / 16) * 1rem);
+  padding: calc((20 / 16) * 1rem) calc((35 / 16) * 1rem);
 
   /* center main and footer  */
   display: flex;

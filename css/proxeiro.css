@@ -1,0 +1,49 @@
+/* Extra large devices 1440px*/
+@media (min-width: 90em) {
+  body {
+    padding-top: calc((229 / 16) * 1rem);
+  }
+
+  /* SECTION TESTIMONIALS----------------------------- */
+  .testimonials__section {
+    grid-template-columns: repeat(12, 5.31rem);
+    grid-template-rows: 18rem 16.87rem;
+    column-gap: var(--space-32px);
+    row-gap: var(--space-24px);
+  }
+
+  /* GENERAL USE CLASSES -----------------------------*/
+  .testimonial {
+    min-width: calc((255 / 16) * 1rem);
+  }
+
+  /* TESTIMONIAL 1 --------------------------  */
+  .testimonial__1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 6;
+  }
+
+  /* TESTIMONIAL 2 ---------------------------- */
+  .testimonial__2 {
+    grid-row: 1;
+    grid-column: 7 / span 3;
+  }
+
+  /* TESTIMONIAL 3 ---------------------------- */
+  .testimonial__3 {
+    grid-row: 2;
+    grid-column: 1 / span 3;
+  }
+
+  /* TESTIMONIAL 4 ---------------------------- */
+  .testimonial__4 {
+    grid-row: 2;
+    grid-column: 4 / span 6;
+  }
+
+  /* TESTIMONIAL 5 ---------------------------- */
+  .testimonial__5 {
+    grid-row: 1 / span 2;
+    grid-column: 10 / span 3;
+  }
+}
